@@ -21,6 +21,11 @@ body {
     padding: 20px 10px;
     background-color: #f5f7f9;
     height: 100%;
+	transition: all 0.2s ease;
+}
+
+.album .card:hover {
+	transform: scale(1.02);
 }
 
 .album .card img {
